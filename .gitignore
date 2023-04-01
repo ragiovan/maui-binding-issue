@@ -1,0 +1,6 @@
+obj/
+.vs/
+./vs/CellularSignal1/
+./vs/CellularSignal1/FileContentIndex/
+CellularSignal1/bin/Debug/net7.0-android/
+bin/Debug/net7.0-android/

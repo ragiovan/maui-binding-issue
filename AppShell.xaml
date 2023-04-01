@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CellularSignal1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CellularSignal1"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar x:Name="MyTabBar">
+        <ShellContent Title="Cell Frequencies" ContentTemplate="{DataTemplate local:CellularFrequencies}" Route="CellFreq"/>
+    </TabBar>
+</Shell>
